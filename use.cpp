@@ -3,7 +3,7 @@
 #include <iomanip>
 #include <sstream>
 
-#include "globl.h"
+#include "typedef.h"
 
 /* sprintf(buf,"%08x") と等価 */
 std::string fmt32(uint32_t v)
