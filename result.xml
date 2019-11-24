@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding='UTF-8' standalone='yes' ?>
+<?xml-stylesheet type="text/xsl" href="result.xsl"?>
+<TestRun>
+  <FailedTests></FailedTests>
+  <SuccessfulTests>
+    <Test id="1">
+      <Name>checkwarntest::test11</Name>
+    </Test>
+    <Test id="2">
+      <Name>checkwarntest::test12</Name>
+    </Test>
+    <Test id="3">
+      <Name>checkwarntest::test13</Name>
+    </Test>
+    <Test id="4">
+      <Name>checkwarntest::test21</Name>
+    </Test>
+    <Test id="5">
+      <Name>checkwarntest::test22</Name>
+    </Test>
+    <Test id="6">
+      <Name>checkwarntest::test23</Name>
+    </Test>
+    <Test id="7">
+      <Name>checkwarntest::test31</Name>
+    </Test>
+    <Test id="8">
+      <Name>checkwarntest::test32</Name>
+    </Test>
+    <Test id="9">
+      <Name>checkwarntest::test33</Name>
+    </Test>
+  </SuccessfulTests>
+  <Statistics>
+    <Tests>9</Tests>
+    <FailuresTotal>0</FailuresTotal>
+    <Errors>0</Errors>
+    <Failures>0</Failures>
+  </Statistics>
+</TestRun>
