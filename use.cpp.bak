@@ -30,9 +30,6 @@ void useSensorValue(void)
 	SensorValue sv;
 	sv.setv16(0,0x1000);
 	sva[0] = sv;
-	std::cout << "size:" << std::endl;
-	std::cout << sva.getSize() << std::endl;
-	std::cout << sva.getCount() << std::endl;
 
 	std::cout << std::string(__FUNCTION__) << ":";
 	std::cout << fmt16(sva[0].getv16(0)) << std::endl;

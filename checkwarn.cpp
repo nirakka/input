@@ -27,7 +27,10 @@ int checkwarn(const Warn& inwarn, const RawValue& invalue)
 }
 
 // 使い方
-// 
+// static WarnValueArray wva(wva(10));
+// static WarnValue outvalue(X(1),3400,B(1),1);
+// writeWarn(errno, invalue,outvalue);
+// wva[0] = outvalue; 
 int writeWarn(int errno, const RawValue& invalue, WarnValue& outvalue)
 {
 	if (errno > 0){
